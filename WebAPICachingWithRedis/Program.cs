@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using WebAPICachingWithRedis.Data;
+using WebAPICachingWithRedis.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,9 @@ builder.Services.AddEntityFrameworkNpgsql()
                 .AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
                 );
+
+//add config to caching service
+builder.Services.AddScoped<ICacheService, CacheService>();
 
 var app = builder.Build();
 
