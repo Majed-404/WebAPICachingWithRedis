@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPICachingWithRedis", "WebAPICachingWithRedis\WebAPICachingWithRedis.csproj", "{A8ABF06A-1D12-4779-A483-E53E38DA867B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8ABF06A-1D12-4779-A483-E53E38DA867B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ABF06A-1D12-4779-A483-E53E38DA867B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ABF06A-1D12-4779-A483-E53E38DA867B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ABF06A-1D12-4779-A483-E53E38DA867B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {359A39F8-ED35-4B0A-B4C1-FC5B6991BB67}
+	EndGlobalSection
+EndGlobal
